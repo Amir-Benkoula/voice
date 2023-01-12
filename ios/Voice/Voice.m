@@ -82,7 +82,7 @@
     self.recognitionTask = nil;
     
     // Set back audio session category
-    [self resetAudioSession];
+    // [self resetAudioSession];
     
     // End recognition request
     [self.recognitionRequest endAudio];
